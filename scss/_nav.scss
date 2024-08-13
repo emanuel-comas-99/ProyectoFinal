@@ -1,0 +1,59 @@
+nav {
+    .menu {
+      display: flex;
+      flex-direction: row;
+  
+      a {
+        color: white;
+        text-decoration: none;
+  
+        &:hover {
+          color: rgb(23, 100, 74);
+        }
+      }
+  
+      ul {
+        text-align: center;
+      }
+    }
+  
+    ul {
+      display: flex;
+      list-style-type: none;
+    }
+  }
+  
+  li {
+    margin: 5px;
+  }
+  
+  .header-row {
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .dropdown-menu {
+    background-color: rgb(203, 190, 168);
+  
+    a {
+      color: black;
+    }
+  }
+  
+  .grid-container-02 {
+    text-align: center;
+    text-decoration: none;
+    margin: 20px;
+  }
+  
+  .row-header-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  div {
+    display: flex;
+    unicode-bidi: isolate;
+  }
+ 
